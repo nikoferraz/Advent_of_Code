@@ -1,6 +1,4 @@
-'''variable input reads a text file'''
 input = None
-# Save file as list in input variable
 with open('input.txt', 'r') as file:
     input = file.readlines()
 
